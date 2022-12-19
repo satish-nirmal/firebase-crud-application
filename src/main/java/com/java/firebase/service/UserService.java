@@ -44,7 +44,7 @@ public class UserService {
 		return null;
 	}
 
-	// Get data by Name
+	// Get data by name
 	public User getByName(String name) throws InterruptedException, ExecutionException {
 
 		Firestore dbFirestore = FirestoreClient.getFirestore();
